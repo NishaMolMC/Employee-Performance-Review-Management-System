@@ -1,38 +1,27 @@
-# Employee-Performance-Review-Management-System
-Manage and streamline employee performance reviews effortlessly with this Angular-based application. Includes features like review assignment, user authentication, and a responsive, intuitive interface using Angular Material.
+# EmployeeFeedback
 
-# Introduction
-The Employee Performance Review Management System is designed to simplify and automate the process of managing performance reviews within an organization. It allows managers and employees to easily assign, view, and provide feedback on performance reviews. The system features role-based access controls to ensure that only authorized users can perform certain actions.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.9.
 
-# Features
-Role-Based Access: Secure access for employees and administrators.
+## Development server
 
-Review Assignment: Managers can assign reviews to employees and provide feedback.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-Dynamic Feedback Management: Employees can view feedback received, and managers can provide reviews.
+## Code scaffolding
 
-Responsive Design: Built using Angular Material for a modern, clean, and user-friendly interface.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-Efficient Navigation: Easy to navigate between different sections of the dashboard.
+## Build
 
-Authentication: Secure login and role verification for protected routes.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-# Technologies Used
-Angular: Frontend framework
+## Running unit tests
 
-Angular Material: UI components for a responsive design
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-TypeScript: Programming language
+## Running end-to-end tests
 
-CSS3: Styling
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-JSON Server: Mock API for data storage during development
+## Further help
 
-# Usage
-Login: Access the system by logging in as an employee or administrator.
-
-View Dashboard: Navigate through the dashboard to view assigned reviews or give feedback.
-
-Assign Reviews: Admins can assign reviews to other employees.
-
-Give Feedback: Provide feedback and manage reviews dynamically.
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.

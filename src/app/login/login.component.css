@@ -1,0 +1,106 @@
+/* Container styling for the card */
+mat-card {
+  max-width: 450px; /* Slightly wider for better space utilization */
+  margin: 60px auto; /* Centering the card */
+  border-radius: 15px; /* Smoother, more rounded corners */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); /* Deeper shadow for better elevation */
+  background-color: #e0f4f5; /* Light teal background for a refreshing feel */
+  overflow: hidden; /* Prevent content overflow on rounded corners */
+}
+
+/* Header styling */
+mat-card-header {
+  background-color: #005f73; /* Deep teal header matching toolbar */
+  color: white; /* White text color for contrast */
+  border-radius: 15px 15px 0 0; /* Rounding top corners */
+}
+
+/* Toolbar inside card header */
+mat-toolbar {
+  padding: 15px; /* Increased padding for better spacing */
+  background-color: #005f73; /* Consistent with header */
+  font-weight: bold; /* Bold text for emphasis */
+  font-size: 1.2em; /* Slightly larger font */
+  color: #94d2bd; /* Light teal text for subtle contrast */
+}
+
+/* Form field styling */
+mat-form-field {
+  width: 100%; /* Full width */
+  margin-bottom: 18px; /* Evenly spaced between fields */
+}
+
+/* Input styling */
+input.mat-input-element {
+  padding: 12px; /* Generous padding for a spacious feel */
+  border-radius: 6px; /* Smooth, rounded corners */
+  border: 1px solid #94d2bd; /* Subtle teal border */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Smooth border and shadow transition */
+}
+
+/* Input focus state */
+input.mat-input-element:focus {
+  border-color: #0a9396; /* Slightly darker teal on focus */
+  box-shadow: 0 0 8px rgba(10, 147, 150, 0.3); /* Subtle shadow effect on focus */
+}
+
+/* Select styling */
+mat-select {
+  padding: 10px 0; /* Consistent padding */
+  border-radius: 6px; /* Rounded corners */
+}
+
+/* Select panel styling */
+.mat-select-panel {
+  border-radius: 8px; /* Rounded corners for select panel */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15); /* Elevated shadow for dropdown */
+}
+
+/* Button styling */
+button.mat-raised-button {
+  background-color: #0a9396; /* Primary teal for main action buttons */
+  color: white; /* White text color for contrast */
+  width: 100%; /* Full width for buttons */
+  margin-top: 15px; /* Spacing above buttons */
+  padding: 12px 0; /* Increased padding for a solid button feel */
+  border-radius: 6px; /* Smooth corners */
+  font-weight: bold; /* Bold text for emphasis */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+}
+
+/* Button hover effects */
+button.mat-raised-button:hover {
+  background-color: #005f73; /* Darker teal on hover */
+  transform: translateY(-2px); /* Lift button slightly on hover */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+/* Register button styling */
+button.mat-button {
+  color: #0a9396; /* Light teal for the register button */
+  text-align: center; /* Center text */
+  font-weight: bold; /* Emphasize the register action */
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+/* Register button hover effect */
+button.mat-button:hover {
+  color: #005f73; /* Darker teal on hover */
+}
+
+/* Form label styling */
+mat-label {
+  font-weight: 600; /* Bold labels for better readability */
+  color: #333; /* Darker color for a cleaner look */
+}
+
+/* Enhanced input and select field background */
+.mat-input-element, .mat-select {
+  background-color: #ffffff; /* White background for clean input fields */
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle inner shadow for depth */
+}
+
+/* Additional card content styling */
+mat-card-content {
+  padding: 25px; /* Extra padding for better layout */
+}

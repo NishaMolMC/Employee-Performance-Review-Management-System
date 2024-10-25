@@ -1,0 +1,137 @@
+/* Style for the main container heading */
+h2 {
+  font-size: 28px; /* Font size for the heading */
+  color: #2c3e50; /* Dark blue color for the heading */
+  margin-bottom: 20px; /* Space below the heading */
+  text-align: center; /* Center the heading text */
+  font-weight: bold; /* Bold text */
+  border-bottom: 3px solid #005f73; /* Bottom border for emphasis (matches deep teal) */
+  padding-bottom: 10px; /* Space below the border */
+  text-transform: uppercase; /* Transform text to uppercase */
+}
+
+/* Form styling */
+.mat-form-field {
+  width: 100%; /* Full width for consistent form appearance */
+  max-width: 350px; /* Adjust max width to prevent oversized fields */
+  margin-right: 0; /* No extra space needed for centered layout */
+  margin-bottom: 15px; /* Consistent spacing between form fields */
+}
+
+/* Button styling */
+.add-employee-button {
+  background-color: #3f51b5; /* Material theme color */
+  color: white; /* White text for contrast */
+  width: 100%; /* Full-width button for consistency */
+  padding: 10px 0; /* Padding for a solid feel */
+  border-radius: 6px; /* Smooth, rounded corners */
+  font-weight: bold; /* Bold text for emphasis */
+  text-transform: uppercase; /* Uppercase for uniformity */
+  margin-top: 10px; /* Space between fields and button */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Slight shadow for a lifted effect */
+}
+
+/* Hover effect for buttons */
+.add-employee-button:hover {
+  background-color: #303f9f; /* Slightly darker shade on hover */
+  transform: translateY(-2px); /* Lift button on hover */
+}
+
+/* Style for the table */
+table {
+  width: 100%; /* Full width */
+  margin-top: 20px; /* Space above the table */
+  border-collapse: collapse; /* Merge borders */
+  background-color: #e0f4f5; /* Light teal for table background */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for table elevation */
+}
+
+/* Header cell styling */
+th.mat-header-cell {
+  background-color: #005f73; /* Deep teal header background */
+  color: white; /* White text for readability */
+  font-weight: bold; /* Bold header text */
+  padding: 12px; /* Padding inside cells */
+  text-align: left; /* Align header text to the left */
+  text-transform: uppercase; /* Uniform uppercase text */
+}
+
+/* Table cell styling */
+td.mat-cell {
+  padding: 12px; /* Padding inside cells */
+  border-bottom: 1px solid #cfd8dc; /* Light border for rows */
+  color: #333; /* Dark text for readability */
+}
+
+/* Action button styling in table */
+button {
+  background-color: #3f51b5; /* Material theme color */
+  color: white; /* White text for contrast */
+  border-radius: 4px; /* Rounded corners */
+  padding: 6px 10px; /* Padding for button */
+  font-weight: bold; /* Bold text */
+  text-transform: uppercase; /* Uniform uppercase */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition for hover */
+}
+
+/* Hover effect for action buttons */
+button:hover {
+  background-color: #303f9f; /* Darker shade on hover */
+  transform: translateY(-1px); /* Slight lift effect */
+}
+
+/* Style for hover effect on table rows */
+tr.mat-row:hover {
+  background-color: #f1f1f1; /* Light grey on hover */
+  cursor: pointer; /* Indicate clickable row */
+}
+
+/* Consistent Button Styling */
+button.add-employee-button, 
+button.back-to-dashboard-button {
+  width: 100%; /* Full width for consistent look */
+  padding: 10px; /* Padding for better feel */
+  margin-top: 15px; /* Space above button */
+  background-color: #3f51b5; /* Material theme color */
+  color: white; /* White text for contrast */
+  border-radius: 6px; /* Rounded corners for a smooth look */
+  font-weight: bold; /* Bold text */
+  text-transform: uppercase; /* Uniform text style */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Slight shadow */
+}
+
+/* Hover effect for buttons */
+button.add-employee-button:hover, 
+button.back-to-dashboard-button:hover {
+  background-color: #303f9f; /* Darker shade on hover */
+  transform: translateY(-2px); /* Slight lift */
+}
+
+/* Card Styling for Consistency */
+.employee-form-card,
+.employee-table-card {
+  width: 100%; /* Full width within container */
+  max-width: 600px; /* Restrict max width for better readability */
+  padding: 20px; /* Padding for card content */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin: 20px auto; /* Centering */
+}
+
+/* Table Styling */
+.mat-table {
+  width: 100%; /* Full width for table */
+  margin-top: 20px; /* Space above table */
+  background-color: #e0f4f5; /* Light teal background */
+}
+
+th.mat-header-cell {
+  background-color: #005f73; /* Deep teal */
+  color: white; /* White text */
+  font-weight: bold; /* Bold text */
+  padding: 12px; /* Padding */
+}
+
+td.mat-cell {
+  padding: 12px; /* Cell padding */
+  color: #333; /* Dark text */
+}

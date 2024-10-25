@@ -1,0 +1,71 @@
+/* Container styling for the registration card */
+.registration-container {
+    display: flex;
+    justify-content: center; /* Centering the card horizontally */
+    align-items: center; /* Centering the card vertically */
+    height: 100vh; /* Full viewport height for vertical centering */
+    background-color: #f0f4f8; /* Light background color for contrast */
+  }
+  
+  /* Card styling */
+  .registration-card {
+    max-width: 500px; /* Increased width for better usability */
+    width: 100%; /* Full width for responsive design */
+    margin: 20px; /* Margin for spacing */
+    border-radius: 15px; /* Smoother, more rounded corners */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Deeper shadow for better elevation */
+    background-color: #e0f4f5; /* Light teal background for a refreshing feel */
+    overflow: hidden; /* Prevent content overflow on rounded corners */
+  }
+  
+  /* Header styling */
+  mat-card-header {
+    background-color: #005f73; /* Deep teal header */
+    color: white; /* White text color for contrast */
+    border-radius: 15px 15px 0 0; /* Rounding top corners */
+  }
+  
+  /* Toolbar inside card header */
+  mat-toolbar {
+    padding: 15px; /* Increased padding for better spacing */
+    background-color: #005f73; /* Consistent with header */
+    font-weight: bold; /* Bold text for emphasis */
+    font-size: 1.2em; /* Slightly larger font */
+  }
+  
+  /* Title styling */
+  .registration-title {
+    font-weight: bold; /* Bold title for emphasis */
+    font-size: 1.4em; /* Increased font size for prominence */
+  }
+  
+  /* Form field styling */
+  mat-form-field {
+    width: 100%; /* Full width */
+    margin-bottom: 18px; /* Evenly spaced between fields */
+  }
+  
+  /* Button styling */
+  button.mat-raised-button {
+    background-color: #0a9396; /* Primary teal for main action buttons */
+    color: white; /* White text color for contrast */
+    width: 100%; /* Full width for buttons */
+    margin-top: 15px; /* Spacing above buttons */
+    padding: 12px 0; /* Increased padding for a solid button feel */
+    border-radius: 6px; /* Smooth corners */
+    font-weight: bold; /* Bold text for emphasis */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+  }
+  
+  /* Button hover effects */
+  button.mat-raised-button:hover {
+    background-color: #005f73; /* Darker teal on hover */
+    transform: translateY(-2px); /* Lift button slightly on hover */
+  }
+  
+  /* Enhanced input and select field background */
+  .mat-input-element, .mat-select {
+    background-color: #ffffff; /* White background for clean input fields */
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle inner shadow for depth */
+  }
+  

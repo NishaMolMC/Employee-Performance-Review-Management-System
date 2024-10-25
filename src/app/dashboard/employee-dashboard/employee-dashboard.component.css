@@ -1,0 +1,70 @@
+/* Style for the Logout button */
+.logout-button {
+  background-color: #b81a0f; /* Match with styled-button color */
+  color: white;              /* Use white text for contrast */
+  font-weight: 500;         /* Keep consistent font weight */
+  border-radius: 5px;       /* Match border radius */
+  padding: 10px 20px;       /* Consistent padding with previous buttons */
+  text-transform: uppercase; /* Keep text uppercase */
+  transition: background-color 0.3s ease;
+  margin-top: 30px;         /* Space above the button */
+  display: block;           /* Ensure it behaves like a block element for centering */
+  width: fit-content;       /* Adjust width to fit content */
+  margin-left: auto;        /* Center the button in a flex container */
+  margin-right: auto;       /* Center the button in a flex container */
+}
+
+.logout-button:hover {
+  background-color: #790c0c; /* Match hover color with styled-button */
+  color: white;              /* Ensure text remains white on hover */
+}
+
+/* Style for the mat-card */
+mat-card {
+  background-color: #ffffff; /* White background for the card */
+  border-radius: 8px;        /* Slightly rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 20px;             /* Padding inside the card */
+  margin: 20px;              /* Margin around the card */
+}
+
+/* Style for the mat-card-title */
+mat-card-title {
+  font-size: 24px;           /* Font size for the card title */
+  color: #2c3e50;            /* Dark blue color for the title */
+  font-weight: bold;         /* Bold text for emphasis */
+}
+
+/* Style for the paragraph inside mat-card */
+mat-card-content p {
+  font-size: 16px;           /* Font size for the paragraph */
+  color: #555555;            /* Dark gray color for the paragraph text */
+  margin-bottom: 20px;       /* Space below the paragraph */
+}
+
+/* Style for buttons within the card */
+mat-card-content button {
+  margin-right: 10px;        /* Space between buttons */
+  text-transform: uppercase;  /* Uppercase text for buttons */
+}
+
+/* Primary button styling */
+button.mat-raised-button.color-primary {
+  background-color: #1976d2; /* Primary button color */
+  color: white;              /* Text color */
+}
+
+/* Accent button styling */
+button.mat-raised-button.color-accent {
+  background-color: #b81a0f; /* Accent button color */
+  color: white;              /* Text color */
+}
+
+/* Button hover effects */
+button.mat-raised-button.color-primary:hover {
+  background-color: #004ba0; /* Darker blue on hover */
+}
+
+button.mat-raised-button.color-accent:hover {
+  background-color: #790c0c; /* Darker red on hover */
+}

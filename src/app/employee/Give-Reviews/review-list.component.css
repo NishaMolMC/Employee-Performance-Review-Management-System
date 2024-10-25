@@ -1,0 +1,82 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container for the form */
+div {
+  max-width: 600px; /* Limit the width of the form */
+  margin: 20px auto; /* Center the form on the page */
+  padding: 20px; /* Padding inside the form */
+  background-color: #f7f7f7; /* Light gray background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Heading styles */
+h2 {
+  text-align: center; /* Center the heading text */
+  color: #000000; /* Black color for the heading */
+  margin-bottom: 20px; /* Space below the heading */
+  font-weight: bold; /* Bold text */
+}
+
+/* Form field styles */
+mat-form-field {
+  width: 100%; /* Full width for form fields */
+  margin-bottom: 20px; /* Space below each form field */
+}
+
+/* General button styles */
+button {
+  display: inline-block; /* Inline block for button alignment */
+  padding: 12px 24px; /* Padding inside the buttons */
+  font-size: 16px; /* Font size for buttons */
+  font-weight: bold; /* Bold text for buttons */
+  text-align: center; /* Center text inside the button */
+  text-decoration: none; /* Remove underline */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s, box-shadow 0.3s; /* Transition effects */
+}
+
+/* Primary button styles */
+button[mat-raised-button][color="primary"] {
+  background-color: #174891; /* Primary button color */
+  color: white; /* Text color */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  margin-top: 20px; /* Space above the button */
+}
+
+button[mat-raised-button][color="primary"]:hover {
+  background-color: #b52906; /* Darker color on hover */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+/* Back button styles */
+button.back-button {
+  background-color: #11446d; /* Color for back button */
+  color: white; /* Text color for back button */
+}
+
+button.back-button:hover {
+  background-color: #1e88e5; /* Darker blue on hover for back button */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Shadow effect on hover */
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  div {
+    margin: 10px; /* Reduced margin on small screens */
+    padding: 15px; /* Reduced padding on small screens */
+  }
+
+  button {
+    width: 100%; /* Full width for buttons on small screens */
+    margin-bottom: 10px; /* Space below buttons */
+  }
+}

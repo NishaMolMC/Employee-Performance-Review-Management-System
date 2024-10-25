@@ -1,0 +1,39 @@
+<div class="login-container">
+  <mat-card class="login-card">
+    <mat-card-header>
+      <mat-toolbar>
+        <span class="login-title">Login to Your Account</span>
+      </mat-toolbar>
+    </mat-card-header>
+    <mat-card-content>
+      <form (ngSubmit)="login()">
+        <!-- Username Field -->
+        <mat-form-field appearance="outline">
+          <mat-label>Username</mat-label>
+          <input matInput [(ngModel)]="username" name="username" required placeholder="Enter your username">
+        </mat-form-field>
+        
+        <!-- Password Field -->
+        <mat-form-field appearance="outline">
+          <mat-label>Password</mat-label>
+          <input matInput [(ngModel)]="password" name="password" type="password" required placeholder="Enter your password">
+        </mat-form-field>
+
+        <!-- Role Selection -->
+        <mat-form-field appearance="outline">
+          <mat-label>Select Your Role</mat-label>
+          <mat-select [(ngModel)]="role" name="role" required>
+            <mat-option value="Admin">Admin</mat-option>
+            <mat-option value="Employee">Employee</mat-option>
+          </mat-select>
+        </mat-form-field>
+
+        <!-- Submit Button -->
+        <button mat-raised-button color="primary" type="submit">Login</button>
+
+        <!-- Register Button -->
+        <button mat-button (click)="onRegister()">Create an Account</button>
+      </form>
+    </mat-card-content>
+  </mat-card>
+</div>

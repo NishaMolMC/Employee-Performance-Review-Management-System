@@ -1,0 +1,72 @@
+/* Toolbar Heading */
+mat-toolbar h2 {
+  font-size: 24px;            /* Set the font size for the heading */
+  color: #ffffff;             /* White text color for better contrast */
+  font-weight: bold;          /* Make the text bold */
+  margin: 0;                  /* Remove default margin */
+  flex: 1;                    /* Allow the heading to take available space */
+  text-align: center;         /* Center the heading text */
+  letter-spacing: 1px;        /* Slight spacing for a cleaner look */
+}
+
+/* Toolbar Styling */
+mat-toolbar {
+  display: flex; /* Flexbox for alignment */
+  justify-content: space-between; /* Space between title and buttons */
+  align-items: center; /* Center items vertically */
+  background-color: #005f73; /* Deep teal for the toolbar */
+  color: #0a9396; /* Lighter teal for text color */
+  padding: 0 20px; /* Horizontal padding */
+  height: 60px; /* Fixed height */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* More pronounced shadow for depth */
+  border-bottom: 3px solid #94d2bd; /* Light teal border at the bottom */
+}
+
+/* Spacer to push buttons to the right */
+.spacer {
+  flex: 1; /* Takes up remaining space */
+}
+
+/* Button Styling */
+button {
+  color: #94d2bd; /* Light teal for button text color */
+  font-weight: bold; /* Bold text for buttons */
+  background-color: transparent; /* Transparent background */
+  border: none; /* Remove default border */
+  transition: background-color 0.3s, transform 0.2s, color 0.3s; /* Smooth transitions */
+  padding: 8px 12px; /* Add padding for a more button-like appearance */
+  border-radius: 5px; /* Rounded corners for a softer look */
+}
+
+/* Button Hover Effect */
+button:hover {
+  background-color: rgba(144, 224, 239, 0.2); /* Soft teal hover effect */
+  color: #f0fdf4; /* Light mint text color on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* Main Content Area */
+.main-content {
+  padding: 20px; /* Padding around the main content */
+  background-color: #f7f9f9; /* Light, neutral background for content */
+  min-height: calc(100vh - 60px); /* Full height minus toolbar height */
+  display: flex; /* Flexbox for alignment */
+  justify-content: center; /* Center the content */
+  align-items: flex-start; /* Align items to start */
+  border-top: 2px solid #005f73; /* Deep teal border at the top */
+  border-radius: 10px; /* Slightly rounded edges for a cleaner look */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+  mat-toolbar {
+    flex-direction: column; /* Stack elements vertically on small screens */
+    align-items: flex-start; /* Align items to the left */
+    height: auto; /* Auto height */
+    padding: 10px; /* Reduced padding on smaller screens */
+  }
+
+  .main-content {
+    padding: 10px; /* Adjust padding on small screens */
+  }
+}

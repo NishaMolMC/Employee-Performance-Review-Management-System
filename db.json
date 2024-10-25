@@ -1,0 +1,159 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "name": "Sara",
+      "role": "Admin",
+      "username": "Sara",
+      "password": "admin123"
+    },
+    {
+      "id": "2",
+      "name": "Sree",
+      "role": "Employee",
+      "username": "sree",
+      "password": "pass123"
+    },
+    {
+      "id": "3",
+      "name": "Manav",
+      "role": "Employee",
+      "username": "Manav",
+      "password": "employeepass"
+    },
+    {
+      "id": "4",
+      "name": "Rahul",
+      "role": "Employee",
+      "username": "diana.ross",
+      "password": "employeepass"
+    },
+    {
+      "id": "5",
+      "name": "Niranjana",
+      "role": "Employee",
+      "username": "Niranjana",
+      "password": "employeepass"
+    },
+    {
+      "id": "6",
+      "name": "Fathima",
+      "role": "Employee",
+      "username": "Fathima",
+      "password": "employeepass"
+    },
+    {
+      "id": "7",
+      "name": "Kalu",
+      "role": "Admin",
+      "username": "Kalu",
+      "password": "adminpass"
+    },
+    {
+      "id": "8",
+      "name": "Chithra",
+      "role": "Employee",
+      "username": "Chithra",
+      "password": "employeepass"
+    },
+    {
+      "id": "eeb3",
+      "name": "",
+      "role": "Employee",
+      "username": "Ajil",
+      "password": "aj000"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "reviewerId": 1,
+      "revieweeId": 2,
+      "feedback": "Sree consistently meets deadlines.",
+      "reviewerName": "Sara",
+      "revieweeName": "Sree"
+    },
+    {
+      "id": "4",
+      "reviewerId": 7,
+      "revieweeId": 8,
+      "feedback": "Chithra is highly efficient in task management.",
+      "reviewerName": "Kalu",
+      "revieweeName": "Chithra"
+    },
+    {
+      "id": "6",
+      "reviewerId": 4,
+      "revieweeId": 3,
+      "feedback": "Manav is proactive and takes initiative.",
+      "reviewerName": "Rahul",
+      "revieweeName": "Manav"
+    },
+    {
+      "id": "7",
+      "reviewerId": 6,
+      "revieweeId": 5,
+      "feedback": "Niranjana is meticulous in her work and very organized.",
+      "reviewerName": "Fathima",
+      "revieweeName": "Niranjana"
+    },
+    {
+      "id": "8",
+      "reviewerId": 4,
+      "revieweeId": 2,
+      "feedback": "Great job, Sree! Keep it up.",
+      "reviewerName": "Rahul",
+      "revieweeName": "Sree"
+    },
+    {
+      "id": "9",
+      "reviewerId": 1,
+      "revieweeId": 3,
+      "feedback": "Manav shows great potential and always seeks feedback to improve.",
+      "reviewerName": "Sara",
+      "revieweeName": "Manav"
+    },
+    {
+      "id": "10",
+      "reviewerId": 2,
+      "revieweeId": 5,
+      "feedback": "Niranjana has a positive attitude and works well under pressure.",
+      "reviewerName": "Sree",
+      "revieweeName": "Niranjana"
+    },
+    {
+      "id": "11",
+      "reviewerId": 3,
+      "revieweeId": 4,
+      "feedback": "Rahul is a team player and always supports her colleagues.",
+      "reviewerName": "Manav",
+      "revieweeName": "Rahul"
+    },
+    {
+      "id": "12",
+      "reviewerId": 5,
+      "revieweeId": 6,
+      "feedback": "Fathima demonstrates excellent problem-solving skills.",
+      "reviewerName": "Niranjana",
+      "revieweeName": "Fathima"
+    },
+    {
+      "id": "1f4f",
+      "reviewerId": "2",
+      "revieweeId": "4",
+      "feedback": "Smart work Rahul..!"
+    },
+    {
+      "id": "e108",
+      "reviewerId": "3",
+      "revieweeId": "4",
+      "feedback": "Good"
+    },
+    {
+      "id": "45cc",
+      "reviewerId": 1,
+      "revieweeId": "4",
+      "feedback": "Good"
+    }
+  ]
+}
